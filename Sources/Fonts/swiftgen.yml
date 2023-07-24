@@ -1,0 +1,7 @@
+fonts:
+  inputs: Resources/
+  outputs:
+    templateName: swift5
+    output: ${DERIVED_SOURCES_DIR}/Generated.swift
+    params:
+        publicAccess: true
